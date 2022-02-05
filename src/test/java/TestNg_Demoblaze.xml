@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Demoblaze" parallel="tests">
+	<test name="TestN" allow-return-values="true">
+		<classes>
+			<class name="testLayer.Demoblaze_Home" />
+			<class name="testLayer.Product_Demoblaze"/>
+			<class name="testLayer.Cart_Demoblaze"></class>
+		</classes>
+	</test>
+	
+
+</suite>

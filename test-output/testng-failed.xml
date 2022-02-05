@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Demoblaze]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestN(failed)">
+    <classes>
+      <class name="testLayer.Cart_Demoblaze">
+        <methods>
+          <include name="Check_Product_Added"/>
+        </methods>
+      </class> <!-- testLayer.Cart_Demoblaze -->
+      <class name="testLayer.Product_Demoblaze">
+        <methods>
+          <include name="Add_ToCart"/>
+        </methods>
+      </class> <!-- testLayer.Product_Demoblaze -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+</suite> <!-- Failed suite [Demoblaze] -->
